@@ -66,6 +66,26 @@
   color: #ffffff;
 }
 
+.results-summary {
+  margin: 0 2px 14px;
+  color: #475569;
+  font-size: 0.9rem;
+  font-weight: 650;
+}
+
+.empty-state {
+  padding: 40px 20px;
+  border: 1px dashed #cbd5e1;
+  border-radius: 16px;
+  background-color: #ffffff;
+  color: #475569;
+  text-align: center;
+}
+
+.empty-state p {
+  margin: 0;
+}
+
 .product-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(min(240px, 100%), 1fr));
